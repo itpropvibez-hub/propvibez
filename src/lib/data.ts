@@ -1,0 +1,162 @@
+import type { Property } from './types';
+
+export const properties: Property[] = [
+  {
+    id: 'res1',
+    title: 'GREAT VALUE EKANAM',
+    price: 1000000,
+    address: 'Sector 107',
+    city: 'Noida',
+    sqft: 1850,
+    beds: 3,
+    baths: 3,
+    type: 'Apartment',
+    status: 'For Sale',
+    description:
+      'A stunning 3-BHK apartment in a premium society in Noida Sector 150. Enjoy breathtaking views of the pool and lush greenery. Features a modular kitchen, spacious balconies, and world-class amenities.',
+    amenities: [
+      'Swimming Pool',
+      'Clubhouse',
+      'Gymnasium',
+      '24/7 Power Backup',
+      'Kids Play Area',
+      'Reserved Parking',
+    ],
+    imageIds: ['res-apt-1-ext', 'res-apt-1-int-1', 'res-apt-1-int-2'],
+    location: { lat: 28.455, lng: 77.445 },
+    agent: {
+      name: 'Sunita Sharma',
+      avatarUrl: 'https://i.pravatar.cc/150?u=agent5',
+    },
+    pricePerSqft: 10000,
+  },
+  {
+    id: 'res2',
+    title: 'Independent Villa in Gated Community',
+    price: 45000000,
+    address: 'DLF Phase 4',
+    city: 'Gurgaon',
+    sqft: 3200,
+    beds: 4,
+    baths: 5,
+    type: 'House',
+    status: 'For Sale',
+    description:
+      'An exclusive independent villa located in the heart of Gurgaon. This property boasts a private garden, a spacious terrace, and premium marble flooring. Perfect for a family looking for luxury and privacy.',
+    amenities: [
+      'Private Garden',
+      'Terrace',
+      'Servant Quarters',
+      'Gated Community',
+      'Proximity to Malls',
+    ],
+    imageIds: ['res-house-1-ext', 'res-house-1-int-1'],
+    location: { lat: 28.463, lng: 77.082 },
+    agent: {
+      name: 'Amit Verma',
+      avatarUrl: 'https://i.pravatar.cc/150?u=agent6',
+    },
+    pricePerSqft: 14062,
+  },
+  //  {
+  //   id: 'com1',
+  //   title: 'Modern Office Space in IT Hub',
+  //   price: 90000, // Rent per month
+  //   address: 'Sector 62',
+  //   city: 'Noida',
+  //   sqft: 2000,
+  //   type: 'Office',
+  //   status: 'For Rent',
+  //   description:
+  //     'A state-of-the-art office space located in the bustling IT hub of Sector 62. This fully-furnished space features 30 workstations, two conference rooms, and a modern pantry. Ideal for startups and growing businesses.',
+  //   amenities: [
+  //     'Fully Furnished',
+  //     'Conference Rooms',
+  //     'High-Speed Internet',
+  //     '24/7 Power Backup',
+  //     'Central AC',
+  //     'Ample Parking',
+  //   ],
+  //   imageIds: ['com-office-1-ext', 'com-office-1-int-1', 'com-office-1-int-2'],
+  //   location: { lat: 28.618, lng: 77.368 },
+  //   agent: {
+  //     name: 'Rajesh Kumar',
+  //     avatarUrl: 'https://i.pravatar.cc/150?u=agent1',
+  //   },
+  //   pricePerSqft: 45,
+  // },
+  // {
+  //   id: 'plot1',
+  //   title: 'Residential Plot near Yamuna Expressway',
+  //   price: 9500000,
+  //   address: 'Sector 20',
+  //   city: 'Greater Noida',
+  //   sqft: 1290, // Approx 120 sq. mtr.
+  //   type: 'Plot',
+  //   status: 'For Sale',
+  //   description:
+  //     'A prime residential plot in a well-planned sector of Greater Noida, with excellent connectivity to Yamuna Expressway. Perfect for building your dream home in a rapidly developing area.',
+  //   amenities: ['Gated Sector', 'Park Facing', 'Wide Roads', 'Approved for Construction', 'Near Metro'],
+  //   imageIds: ['com-land-1'],
+  //   location: { lat: 28.47, lng: 77.50 },
+  //   agent: {
+  //     name: 'Priya Singh',
+  //     avatarUrl: 'https://i.pravatar.cc/150?u=agent2',
+  //   },
+  //   pricePerSqft: 7364,
+  // },
+  // {
+  //   id: 'res3',
+  //   title: 'Cozy Studio Apartment in South Delhi',
+  //   price: 35000, // Rent per month
+  //   address: 'Saket',
+  //   city: 'Delhi',
+  //   sqft: 600,
+  //   beds: 1,
+  //   baths: 1,
+  //   type: 'Studio',
+  //   status: 'For Rent',
+  //   description:
+  //     'A chic and modern studio apartment in the upscale locality of Saket, South Delhi. Fully furnished with elegant interiors, a kitchenette, and all modern amenities. Ideal for students or working professionals.',
+  //   amenities: [
+  //     'Fully Furnished',
+  //     'Kitchenette',
+  //     'High-Speed WiFi',
+  //     'Close to Metro',
+  //     '24/7 Security',
+  //   ],
+  //   imageIds: ['res-studio-1-int-1', 'res-studio-1-int-2'],
+  //   location: { lat: 28.5245, lng: 77.2066 },
+  //   agent: {
+  //     name: 'Anjali Sharma',
+  //     avatarUrl: 'https://i.pravatar.cc/150?u=agent3',
+  //   },
+  //   pricePerSqft: 58,
+  // },
+  //  {
+  //   id: 'com2',
+  //   title: 'Prime Retail Showroom on Main Road',
+  //   price: 250000, // Rent
+  //   address: 'Sector 18',
+  //   city: 'Noida',
+  //   sqft: 2000,
+  //   type: 'Retail',
+  //   status: 'For Rent',
+  //   description:
+  //     'High-visibility retail showroom located in the prime market of Sector 18, Noida. With a massive glass frontage and high footfall, this space is perfect for luxury brands, electronics stores, or high-end restaurants.',
+  //   amenities: [
+  //     'Main Road Facing',
+  //     'High Footfall Area',
+  //     'Glass Frontage',
+  //     'Valet Parking',
+  //     'Two-Side Open',
+  //   ],
+  //   imageIds: ['com-retail-1-ext', 'com-retail-1-int-1'],
+  //   location: { lat: 28.5706, lng: 77.3248 },
+  //   agent: {
+  //     name: 'Priya Singh',
+  //     avatarUrl: 'https://i.pravatar.cc/150?u=agent2',
+  //   },
+  //   pricePerSqft: 125,
+  // },
+];
