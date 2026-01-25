@@ -6,7 +6,7 @@ export function Logo() {
     <Link href="/" className="flex flex-col items-center group">
       <div className="flex items-center gap-2">
         {/* Container for the PNG Logo */}
-        <div className="relative w-48 h-24 mx-10">
+        <div className="relative w-48 h-24">
           <Image 
             src="/assets/logo.png" 
             alt="PropVibez Logo" 

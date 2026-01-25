@@ -5,11 +5,11 @@ import Link from 'next/link';
 export function Footer() {
   return (
     <footer className="bg-card border-t">
-      <div className="container mx-auto px-4 py-6">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="container mx-auto md:px-4 py-6 px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="md:col-span-1 flex flex-col gap-4 items-center md:items-start">
             <Logo />
-            <p className="text-muted-foreground text-sm text-center md:text-left md:mx-10">
+            <p className="text-muted-foreground text-sm text-center md:text-left">
               Your partner in finding the perfect property.
             </p>
           </div>
