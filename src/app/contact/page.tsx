@@ -12,7 +12,7 @@ const officeLocation: Property = {
     id: 'office-location',
     title: 'PropVibez Main Branch',
     price: 0,
-    address: 'Office no. 910, 9th Floor, Assotech Business Cresterra, Sector 135',
+    address: 'Unit no. 910, 9th Floor, Assotech Business Cresterra, Sector 135',
     city: 'Noida',
     sqft: 5000,
     type: 'Office',
@@ -97,7 +97,7 @@ export default function ContactPage() {
                                         <MapPin className="h-6 w-6 text-primary mt-1 mr-4 flex-shrink-0"/>
                                         <div>
                                             <h4 className="font-semibold">Our Office</h4>
-                                            <p className="text-muted-foreground">{officeLocation.address}, {officeLocation.city}, Uttar Pradesh 201304</p>
+                                            <p className="text-muted-foreground">{officeLocation.address}, {officeLocation.city}, UP, 201304</p>
                                         </div>
                                     </div>
                                      <div className="flex items-start">

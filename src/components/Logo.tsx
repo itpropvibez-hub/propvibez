@@ -8,7 +8,7 @@ export function Logo() {
         {/* Container for the PNG Logo */}
         <div className="relative w-48 h-24">
           <Image 
-            src="/assets/logo.png" 
+            src="/assets/NewLogo.png" 
             alt="PropVibez Logo" 
             fill 
             className="object-contain"

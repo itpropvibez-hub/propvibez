@@ -20,7 +20,7 @@ const lato = Lato({
 
 
 export const metadata: Metadata = {
-  title: 'PropVibez - Elevate Your Lifestyle',
+  title: 'PropVibez - Build On Trust',
   description:
     'Find your dream property in Noida, Greater Noida, Gurgaon, and Delhi. We offer a wide range of residential and commercial properties.',
 };

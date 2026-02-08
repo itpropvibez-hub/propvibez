@@ -10,6 +10,16 @@ import { Card, CardContent } from '@/components/ui/card';
 export function FounderVideos() {
   const youtubeVideos = [
     {
+      id: 'video',
+      embedUrl: 'https://www.youtube.com/embed/LkgObkycF1o?si=glL2GzeUlZTpTHX-',
+      title: "RG Group Noida: Truth Behind Delays, Insolvency & Current Projects",
+    },
+    {
+      id: 'video0',
+      embedUrl: 'https://www.youtube.com/embed/z59e7XVrI4I?si=QgPRb-6X9jdJSUep',
+      title: "Nimbus Group: Ground Reality, Risks & What Buyers Must Know | Noida Real Estate",
+    },
+    {
       id: 'video1',
       embedUrl: 'https://www.youtube.com/embed/q-VrxxMswHM?si=etO4NqrszKaOSkPd',
       title: "ACE Group Story Explained | How ACE Built a Real Estate Empire in Noida",

@@ -11,6 +11,7 @@ import { ServiceStepGuide } from './services/ServicesStepGuide';
 import { ContactCTA } from './services/ContactCTA';
 import { FounderVideos } from '@/components/Home/FounderVideos';
 import { WhyUs } from '@/components/Home/WhyUs';
+import { PropertyTypes } from '@/components/Home/PropertyTypes';
 
 export default function P() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero');
@@ -42,7 +43,7 @@ export default function P() {
             </Button>
         </div>
       </section>
-      
+      {/* <PropertyTypes /> */}
       <WhatWeOffer />
       <FounderVideos />
       <ServiceStepGuide />
