@@ -1,5 +1,6 @@
 import { properties } from "@/lib/data"
 import PropertiesClient from "@/components/properties/PropertiesClient";
+import { Suspense } from 'react'
 
 export default function PropertiesPage() {
   // In a real app, you would fetch properties from an API
@@ -11,7 +12,9 @@ export default function PropertiesPage() {
         <h1 className="text-4xl font-bold font-headline text-accent">Find Your Perfect Space</h1>
         <p className="text-muted-foreground mt-2">Search through the best properties in Noida, Gurgaon, Delhi and more.</p>
       </div>
-      <PropertiesClient properties={allProperties} />
+     <Suspense fallback={<div>Loading properties...</div>}>
+        <PropertiesClient properties={allProperties} />
+      </Suspense>
     </div>
   )
 }
