@@ -29,7 +29,7 @@ const steps = [
   },
 ];
 
-export const ServiceStepGuide = () => {
+export const  ServiceStepGuide = () => {
   return (
     <section className="py-16 md:py-24 bg-secondary">
       <div className="container mx-auto px-4">

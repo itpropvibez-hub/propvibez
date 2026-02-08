@@ -7,82 +7,188 @@
       "imageHint": "family home"
     },
     {
+      "id": "proj-ekanam-ext",
+      "description": "Exterior of a ultra-luxury high-rise apartment building at dusk",
+      "imageUrl": "/assets/projects/GREAT VALUE EKANAM/elevation.webp",
+      "imageHint": "luxury skyscraper"
+    },
+    {
+      "id": "proj-ekanam-ext1",
+      "description": "Exterior of a ultra-luxury high-rise apartment building at dusk",
+      "imageUrl": "/assets/projects/GREAT VALUE EKANAM/ext.jpg",
+      "imageHint": "luxury skyscraper"
+    },
+    {
+      "id": "proj-ekanam-ext2",
+      "description": "Exterior of a ultra-luxury high-rise apartment building at dusk",
+      "imageUrl": "/assets/projects/GREAT VALUE EKANAM/facility.jpg",
+      "imageHint": "Children Facilities"
+    },
+    {
+      "id": "proj-ekanam-pool",
+      "description": "An infinity pool on a skyscraper rooftop overlooking a city",
+      "imageUrl": "/assets/projects/GREAT VALUE EKANAM/pool.jpg",
+      "imageHint": "rooftop pool"
+    },
+    {
+      "id": "proj-ekanam-int",
+      "description": "Exterior of a modern apartment building with balconies",
+      "imageUrl": "/assets/projects/GREAT VALUE EKANAM/balcony.webp",
+      "imageHint": "luxury apartment"
+    },
+    {
+      "id": "proj-arista-ext",
+      "description": "A modern residential complex with multiple towers and green spaces",
+      "imageUrl": "/assets/projects/Arista/elevation.jpeg",
+      "imageHint": "residential complex"
+    },
+    {
+      "id": "proj-arista-int",
+      "description": "Interior Look",
+      "imageUrl": "/assets/projects/Arista/int.webp",
+      "imageHint": "Interior Look"
+    },
+    {
+      "id": "proj-arista-club",
+      "description": "A modern and luxurious clubhouse lobby",
+      "imageUrl": "/assets/projects/Arista/balcony.jpg",
+      "imageHint": "Exterior"
+    },
+    {
+      "id": "proj-arista-4",
+      "description": "Balcony View",
+      "imageUrl": "/assets/projects/Arista/ext1.jpg",
+      "imageHint": "Balcony View"
+    },
+    {
+      "id": "proj-arista-5",
+      "description": "Interior look",
+      "imageUrl": "/assets/projects/Arista/int.jpg",
+      "imageHint": "interior"
+    },
+
+    {
       "id": "res-apt-1-ext",
       "description": "Exterior of a modern apartment building with balconies",
-      "imageUrl": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwwfHx8fDE3MTcyMjAwMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/assets/projects/Oasis GrandStand/elevation.webp",
       "imageHint": "apartment building"
     },
     {
-      "id": "res-apt-1-int-1",
-      "description": "Bright living room of a modern apartment",
-      "imageUrl": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsaXZpbmclMjByb29tfGVufDB8fHx8MTcxNzIyMDAwMHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "living room"
+      "id": "res-apt-1-ext-1",
+      "description": "Exterior of a modern apartment building with balconies",
+      "imageUrl": "/assets/projects/Oasis GrandStand/ext1.jpeg",
+      "imageHint": "Balconies"
     },
     {
-      "id": "res-apt-1-int-2",
-      "description": "Modular kitchen with sleek cabinets",
-      "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb2R1bGFyJTIwa2l0Y2hlbnxlbnwwfHx8fDE3MTcyMjAwMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "modular kitchen"
+      "id": "res-apt-1-ext-2",
+      "description": "Exterior of a modern apartment building with balconies",
+      "imageUrl": "/assets/projects/Oasis GrandStand/ext2.webp",
+      "imageHint": "Exterior"
     },
     {
-      "id": "res-house-1-ext",
-      "description": "Exterior of a large, luxurious modern house",
-      "imageUrl": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3VzZXxlbnwwfHx8fDE3MTcyMjAwMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "luxury house"
+      "id": "res-apt-1-ext-3",
+      "description": "Exterior of a modern apartment building with balconies",
+      "imageUrl": "/assets/projects/Oasis GrandStand/ext3.webp",
+      "imageHint": "Exterior"
     },
     {
-      "id": "res-house-1-int-1",
-      "description": "Spacious interior of a villa with high ceilings",
-      "imageUrl": "https://images.unsplash.com/photo-1613553424168-661343719159?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2aWxsYSUyMGludGVyaW9yfGVufDB8fHx8MTcxNzIyMDAwMHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "villa interior"
+      "id": "res-apt-1-ext-4",
+      "description": "Exterior of a modern apartment building with balconies",
+      "imageUrl": "/assets/projects/Oasis GrandStand/ext4.webp",
+      "imageHint": "Exterior"
+    },
+
+    {
+      "id": "proj-monarque-1",
+      "description": "Exterior of a modern apartment building with balconies",
+      "imageUrl": "/assets/projects/TheMonarque/outdoor.jpg",
+      "imageHint": "apartment building"
+    },
+   {
+      "id": "proj-monarque-2",
+      "description": "Exterior of a modern apartment building with balconies",
+      "imageUrl": "/assets/projects/TheMonarque/elevation.jpg",
+      "imageHint": "apartment building"
     },
     {
-      "id": "res-studio-1-int-1",
-      "description": "Well-designed interior of a studio apartment",
-      "imageUrl": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHVkaW8lMjBhcGFydG1lbnR8ZW58MHx8fHwxNzE3MjIyMDAwMA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "studio apartment"
+      "id": "proj-monarque-3",
+      "description": "Exterior of a modern apartment building with balconies",
+      "imageUrl": "/assets/projects/TheMonarque/ext1.jpg",
+      "imageHint": "apartment building"
     },
     {
-      "id": "res-studio-1-int-2",
-      "description": "Compact and functional kitchenette in a studio",
-      "imageUrl": "https://images.unsplash.com/photo-1556912173-35feb39c5673?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxraXRjaGVuZXR0ZXxlbnwwfHx8fDE3MTcyMjIwMDAw&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "kitchenette"
+      "id": "proj-monarque-int1",
+      "description": "Interior of a modern apartment building with balconies",
+      "imageUrl": "/assets/projects/TheMonarque/int1.jpg",
+      "imageHint": "apartment building"
     },
     {
-      "id": "com-office-1-ext",
-      "description": "Exterior of a modern office building with glass facade",
-      "imageUrl": "https://images.unsplash.com/photo-1556761175-577389e6a2da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2V8ZW58MHx8fHwxNzE3MjE5Mjg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "modern office"
+      "id": "proj-monarque-int2",
+      "description": "Interior of a modern apartment building with balconies",
+      "imageUrl": "/assets/projects/TheMonarque/int2.jpg",
+      "imageHint": "apartment building"
     },
     {
-      "id": "com-office-1-int-1",
-      "description": "Spacious open-plan office interior with workstations",
-      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxvcGVuJTIwb2ZmaWNlfGVufDB8fHx8MTcxNzIxOTI4OHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "open office"
+      "id": "proj-monarque-int3",
+      "description": "Interior of a modern apartment building with balconies",
+      "imageUrl": "/assets/projects/TheMonarque/int3.jpg",
+      "imageHint": "apartment building"
     },
     {
-      "id": "com-office-1-int-2",
-      "description": "Modern conference room with a large screen",
-      "imageUrl": "https://images.unsplash.com/photo-1573496799515-e6b358942475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtZWV0aW5nJTIwcm9vbXxlbnwwfHx8fDE3MTcyMTkyODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "meeting room"
+      "id": "proj-monarque-int4",
+      "description": "Interior of a modern apartment building with balconies",
+      "imageUrl": "/assets/projects/TheMonarque/int4.jpg",
+      "imageHint": "apartment building"
     },
     {
-      "id": "com-retail-1-ext",
-      "description": "Stylish storefront of a retail shop in a city",
-      "imageUrl": "https://images.unsplash.com/photo-1556740714-a8395b3bf30f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZXRhaWwlMjBzdG9yZXxlbnwwfHx8fDE3MTcyMTkyODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "retail store"
+      "id": "proj-monarque-living",
+      "description": "Interior of a modern apartment building with balconies",
+      "imageUrl": "/assets/projects/TheMonarque/living.jpg",
+      "imageHint": "apartment building"
     },
     {
-      "id": "com-retail-1-int-1",
-      "description": "Interior of a bright and modern clothing store",
-      "imageUrl": "https://images.unsplash.com/photo-1523381294911-8d3cead13475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjbG90aGluZyUyMHN0b3JlfGVufDB8fHx8MTcxNzIxOTI4OHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "clothing store"
+      "id": "proj-monarque-bedroom",
+      "description": "Interior of a modern apartment building with balconies",
+      "imageUrl": "/assets/projects/TheMonarque/bedroom.jpg",
+      "imageHint": "apartment building"
     },
     {
-      "id": "com-land-1",
-      "description": "An empty plot of land with city skyline in the background",
-      "imageUrl": "https://images.unsplash.com/photo-1508854374351-419131d23455?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb21tZXJjaWFsJTIwbGFuZHxlbnwwfHx8fDE3MTcyMTkyODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "land plot"
+      "id": "proj-monarque-balcony",
+      "description": "Interior of a modern apartment building with balconies",
+      "imageUrl": "/assets/projects/TheMonarque/balcony.jpg",
+      "imageHint": "apartment building"
+    },
+  
+     { 
+      "id": "proj-rgmirage-ext",
+      "description": "Exterior of a ultra-luxury high-rise apartment building at dusk",
+      "imageUrl": "/assets/projects/RG Mirage/ext.jpg",
+      "imageHint": "luxury skyscraper"
+    },
+    {
+      "id": "proj-rgmirage-ext2",
+      "description": "A modern residential complex with multiple towers and green spaces",
+      "imageUrl": "/assets/projects/RG Mirage/ext2.webp",
+      "imageHint": "residential complex"
+    },
+    {
+      "id": "proj-rgmirage-int",
+      "description": "Interior of a modern luxury apartment with floor-to-ceiling windows",
+      "imageUrl": "/assets/projects/RG Mirage/interior.jpg",
+      "imageHint": "luxury apartment"
+    },
+    {
+      "id": "proj-rgmirage-int2",
+      "description": "Spacious living room with elegant furniture in a new apartment",
+      "imageUrl": "/assets/projects/RG Mirage/int2.webp",
+      "imageHint": "elegant livingroom"
+    },
+    {
+      "id": "proj-rgmirage-club",
+      "description": "A modern and luxurious clubhouse lobby",
+      "imageUrl": "/assets/projects/RG Mirage/club.jpg",
+      "imageHint": "clubhouse lobby"
     }
+
   ]
 }

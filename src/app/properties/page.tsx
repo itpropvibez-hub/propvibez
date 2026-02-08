@@ -7,7 +7,7 @@ export default function PropertiesPage() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <div className="text-center mb-8">
+      <div className="text-center mb-8 animate-in fade-in-0 slide-in-from-top-12 duration-500">
         <h1 className="text-4xl font-bold font-headline text-accent">Find Your Perfect Space</h1>
         <p className="text-muted-foreground mt-2">Search through the best properties in Noida, Gurgaon, Delhi and more.</p>
       </div>
@@ -15,3 +15,4 @@ export default function PropertiesPage() {
     </div>
   )
 }
+

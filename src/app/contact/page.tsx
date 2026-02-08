@@ -12,7 +12,7 @@ const officeLocation: Property = {
     id: 'office-location',
     title: 'PropVibez Main Branch',
     price: 0,
-    address: 'Assotech Business Cresterra, Sector 135',
+    address: 'Office no. 910, 9th Floor, Assotech Business Cresterra, Sector 135',
     city: 'Noida',
     sqft: 5000,
     type: 'Office',
