@@ -42,7 +42,7 @@ export default function ContactPage() {
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                         {/* Contact Form */}
-                        <Card className="p-8 shadow-xl">
+                         <Card className="p-8 shadow-xl">
                             <CardHeader className="p-0 mb-6">
                                 <CardTitle className="text-3xl font-headline text-accent">Send Us a Message</CardTitle>
                                 <CardDescription>

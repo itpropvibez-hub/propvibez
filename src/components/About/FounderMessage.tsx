@@ -9,7 +9,7 @@ export function FounderMessage() {
         <div className="flex flex-col items-center text-center">
           <div className="relative group">
             <Avatar className="w-64 h-64 mb-6 border-8 border-background shadow-2xl transition-transform group-hover:scale-105">
-              <AvatarImage src="/assets/profile.jpeg" className="object-cover" />
+              <AvatarImage src="/assets/shaylee-portrait.jpg" className="object-cover" />
               <AvatarFallback>SM</AvatarFallback>
             </Avatar>
             <div className="flex gap-4 justify-center mt-2">

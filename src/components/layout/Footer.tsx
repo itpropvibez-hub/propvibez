@@ -1,5 +1,5 @@
 import { Logo } from '@/components/Logo';
-import { Facebook, Twitter, Instagram, Linkedin  } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, Youtube  } from 'lucide-react';
 import Link from 'next/link';
 
 export function Footer() {
@@ -20,7 +20,7 @@ export function Footer() {
                 <li><Link href="/" className="text-sm text-muted-foreground hover:text-primary">Home</Link></li>
                 <li><Link href="/about" className="text-sm text-muted-foreground hover:text-primary">About Us</Link></li>
                  <li><Link href="/services" className="text-sm text-muted-foreground hover:text-primary">Services</Link></li>
-                {/* <li><Link href="/properties" className="text-sm text-muted-foreground hover:text-primary">Properties</Link></li> */}
+                <li><Link href="/properties" className="text-sm text-muted-foreground hover:text-primary">Projects</Link></li>
               </ul>
             </div>
             <div>
@@ -28,6 +28,7 @@ export function Footer() {
               <ul className="space-y-2">
                 <li><Link href="/contact" className="text-sm text-muted-foreground hover:text-primary">Contact</Link></li>
                 <li><Link href="/careers" className="text-sm text-muted-foreground hover:text-primary">Careers</Link></li>
+                <li><Link href="/privacy-policy" className="text-sm text-muted-foreground hover:text-primary">Privacy Policy</Link></li>
                 <li><Link href="#" className="text-sm text-muted-foreground hover:text-primary">Feedback</Link></li>
               </ul>
             </div>
@@ -35,7 +36,7 @@ export function Footer() {
               <h4 className="font-semibold mb-3 font-headline text-primary">Connect</h4>
               <div className="flex space-x-4">
                 <Link href="https://www.facebook.com/share/17sMJHGU4D/?mibextid=wwXIfr" target='_blank' className="text-muted-foreground hover:text-primary"><Facebook size={20} /></Link>
-                {/* <Link href="#" className="text-muted-foreground hover:text-primary" target='_blank'><Twitter size={20} /></Link> */}
+                <Link href="https://www.youtube.com/@shayleemadaan" className="text-muted-foreground hover:text-primary" target='_blank'><Youtube size={20} /></Link>
                 <Link href="https://www.instagram.com/propvibez?igsh=NDRvZjdob240dm1r&utm_source=qr" target='_blank' className="text-muted-foreground hover:text-primary"><Instagram size={20} /></Link>
                 <Link href="https://www.linkedin.com/company/prop-vibez/" className="text-muted-foreground hover:text-primary" target='_blank'><Linkedin size={20} /></Link>
               </div>
