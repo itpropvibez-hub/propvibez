@@ -44,7 +44,7 @@ export default function P() {
             </Button>
         </div>
       </section>
-      <HeroSection />
+      {/* <HeroSection /> */}
       {/* <PropertyTypes /> */}
       <WhatWeOffer />
       <FounderVideos />
