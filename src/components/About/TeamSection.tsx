@@ -15,18 +15,32 @@ const teamMembers = [
     bio: "Visual storyteller transforming properties into digital experiences through high-end cinematography.",
     socials: { linkedin: "#" }
   },
-  {
+   {
     name: "Tushar Punhani",
     role: "Graphic Designer",
     avatar: "/assets/employees/TusharPunhani.png",
     bio: "Defining the PropVibez aesthetic through modern branding and impactful marketing collateral.",
     socials: { twitter: "#" }
   },
-  {
-    name: "Dhruv Gupta",
+ {
+    name: "Arpit Mishra",
     role: "Business Development",
-    avatar: "/assets/employees/DhruvGupta.jpeg",
-    bio: "Specializing in residential growth and identifying high-yield investment corridors in Delhi NCR.",
+    avatar: "/assets/employees/ArpitMishra.jpeg",
+    bio: "Drives strategic residential expansion and uncovers lucrative investment opportunities across the Delhi NCR region.",
+    socials: { linkedin: "#" }
+  },
+  {
+    name: "Surabhi Singh",
+    role: "Business Development",
+    avatar: "/assets/employees/SurabhiSingh.jpeg",
+    bio: "Focuses on cultivating high-value client relationships and navigating emerging markets for sustainable portfolio growth.",
+    socials: { linkedin: "#" }
+  },
+  {
+    name: "Arav Chaudhary",
+    role: "Business Development",
+    avatar: "/assets/employees/Arav.jpeg",
+    bio: "Expert in market analysis and client acquisition, dedicated to connecting investors with premium, high-yield residential properties.",
     socials: { linkedin: "#" }
   },
   {
@@ -50,7 +64,7 @@ export function TeamSection() {
             innovation to redefine your real estate experience.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {teamMembers.map((member) => (
             <TeamCard key={member.name} member={member} />
           ))}

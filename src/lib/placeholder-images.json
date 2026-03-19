@@ -7,6 +7,24 @@
       "imageHint": "family home"
     },
     {
+       "id": "hero-main",
+      "description": "A smiling real estate agent giving a thumbs up and holding a model house",
+      "imageUrl": "https://images.unsplash.com/photo-1526948531399-320e7e40f0ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyZWFsJTIwZXN0YXRlJTIwYWdlbnR8ZW58MHx8fHwxNzcxMjU5NjcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "real estate agent"
+    },
+    {
+      "id": "hero-bg-1",
+      "description": "A beautiful modern suburban house with a green lawn",
+      "imageUrl": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200",
+      "imageHint": "modern house"
+    },
+    {
+      "id": "hero-bg-2",
+      "description": "A charming house with a mountain backdrop",
+      "imageUrl": "https://images.unsplash.com/photo-1642878542442-46f76aaae355?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxob3VzZSUyMG1vdW50YWlufGVufDB8fHx8MTc3MTI1OTY3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "house mountain"
+    },
+    {
       "id": "proj-ekanam-ext",
       "description": "Exterior of a ultra-luxury high-rise apartment building at dusk",
       "imageUrl": "/assets/projects/GREAT VALUE EKANAM/elevation.webp",

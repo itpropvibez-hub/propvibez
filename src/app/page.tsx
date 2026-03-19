@@ -12,6 +12,7 @@ import { ContactCTA } from './services/ContactCTA';
 import { FounderVideos } from '@/components/Home/FounderVideos';
 import { WhyUs } from '@/components/Home/WhyUs';
 import { PropertyTypes } from '@/components/Home/PropertyTypes';
+import { HeroSection } from '@/components/Home/HeroSection';
 
 export default function P() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero');
@@ -43,6 +44,7 @@ export default function P() {
             </Button>
         </div>
       </section>
+      <HeroSection />
       {/* <PropertyTypes /> */}
       <WhatWeOffer />
       <FounderVideos />
